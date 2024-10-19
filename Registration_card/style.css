@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4E65FF , #92EFFD);
+   
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background: white;
+    padding: 25px;
+    margin: 0 28px;
+    border-radius: 10px;
+   
+}
+
+.form-title{
+
+    text-align: center;
+    padding-bottom: 5px;   
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label{
+    width: 95%;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(241, 233, 233);
+    padding: 0 10px;
+}
+
+.gender-title{
+    color:black;
+    font-size: 15px;   
+}
+
+.gender-category{
+    margin: 15px 0;
+    color: black;
+}
+
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+.cancel{
+
+    background-color: rgb(228, 4, 4);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius:5px;
+    border: 0ch;
+    color: white; 
+
+}
+.submit{
+    background:linear-gradient(to right, #1297d4 , #020480);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius:5px;
+    border: 0ch;
+    color: white;
+}
